@@ -515,8 +515,8 @@ a {
 }
 .experience .second{
   top: -2rem;
-  left: 1.2rem;
-  border: orangered 2px solid;
+  left: 0.2rem;
+  border: orangered 3px solid;
 }
 .experience .third{
   border: purple 2px solid;
@@ -525,7 +525,7 @@ a {
 .experience .fourth{
   border: pink 2px solid;
   top: -7rem;
- left: 1.2rem;
+ left: 0.2rem;
 }
 
 /* project */
