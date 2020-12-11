@@ -597,8 +597,7 @@ footer{
   background-color: black;
   color: white;
   padding:2.3rem 1.7rem;
-  outline: 2px white solid;
-  outline-offset: -30px;
+  
 }
 footer p{
   text-align: center;
