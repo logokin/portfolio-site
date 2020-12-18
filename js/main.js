@@ -3,6 +3,7 @@ const nav = document.querySelector(".navbar");
 const navbar = document.querySelector("#navbar");
 const precious = document.querySelector(".social-links");
 const navList = document.querySelector(".nav-list");
+const btn = document.querySelector(".icon-button");
 
 bar.onclick = () => {
   nav.classList.toggle("dropdown");
@@ -23,11 +24,20 @@ function remove() {
   navList.classList.remove("nav-list-add");
 }
 
+window.addEventListener("load", () => {
+  btn.style.display = "none";
+});
+
 window.addEventListener("scroll", function () {
-  if (window.pageYOffset > 80) {
+  if (window.pageYOffset > 80 || window.pageYOffset > 100) {
     add();
+    btn.style.display = "block";
+    // if(){
+
+    // }
   } else {
     remove();
+    btn.style.display = "none";
   }
 });
 
